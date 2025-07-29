@@ -3,7 +3,7 @@
 
 Gutendex is a simple Python-based API for exploring metadata from the [Project Gutenberg](https://www.gutenberg.org/) digital library. It allows users to query book titles, authors, and subjects using a structured SQL database and provides a foundation for building more advanced search and indexing tools.
 
-## 📦 Project Structure
+## Project Structure
 
 ```
 .
@@ -14,13 +14,13 @@ Gutendex is a simple Python-based API for exploring metadata from the [Project G
 ├── requirements.txt          # Python dependencies
 ```
 
-## 🚀 Features
+## Features
 
 - Query books by title, author, subject, or language
 - Explore metadata such as download count and publication year
 - Extensible for building full REST APIs or search interfaces
 
-## 🔧 Setup Instructions
+##  Setup Instructions
 
 1. **Clone the repository**
    ```bash
@@ -53,7 +53,7 @@ Gutendex is a simple Python-based API for exploring metadata from the [Project G
      jupyter notebook gutendex_api.ipynb
      ```
 
-## 🧪 Example Usage
+##  Example Usage
 
 Within the notebook, you can execute SQL queries like:
 ```python
@@ -61,7 +61,7 @@ SELECT title, author FROM books WHERE subject LIKE '%science%';
 ```
 
 
-## 💡 Future Improvements
+##  Future Improvements
 
 - Build a RESTful API using FastAPI
 - Add full-text search support
