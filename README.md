@@ -63,13 +63,9 @@ SELECT title, author FROM books WHERE subject LIKE '%science%';
 
 ## 💡 Future Improvements
 
-- Build a RESTful API using Flask or FastAPI
+- Build a RESTful API using Flask 
 - Add full-text search support
 - Integrate with modern frontend for browsing and search
-
-## 📝 License
-
-MIT License — feel free to use, modify, and distribute.
 
 ---
 
